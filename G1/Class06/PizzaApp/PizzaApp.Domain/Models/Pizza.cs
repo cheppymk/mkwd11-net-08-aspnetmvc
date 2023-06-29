@@ -5,6 +5,8 @@
         public string Name { get; set; } = string.Empty;
 
         public bool IsOnPromotion { get; set; }
+        public int Price { get; set; }
+        public string ImgUrl { get; set; } = string.Empty;
 
         public List<PizzaOrder> PizzaOrders { get; set; } = new List<PizzaOrder>();
     }
